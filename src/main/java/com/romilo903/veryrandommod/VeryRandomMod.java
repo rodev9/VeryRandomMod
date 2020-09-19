@@ -22,11 +22,14 @@ import java.util.stream.Collectors;
 public class VeryRandomMod
 {
     private static final Logger LOGGER = LogManager.getLogger();
+    public static final String MOD_ID = "veryrandom";
+    public static VeryRandomMod instance;
 
     public VeryRandomMod() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
+        instance = this;
         MinecraftForge.EVENT_BUS.register(this);
     }
 
