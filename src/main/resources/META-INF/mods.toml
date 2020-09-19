@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+issueTrackerURL="https://github.com/romilodev/VeryRandomThings/issues" #optional
+
+[[mods]]
+modId="veryrandom"
+displayName="Very Random Mod"
+logoFile="logo.png" #optional
+version="1.15.2-0.0.1"
+authors="Romilo903" #optional
+description='''
+This is a Very Random Mod!
+'''
+
+displayURL="https://github.com/romilodev/VeryRandomThings#readme" #optional
+# updateJSONURL="" #optional
+# credits="" #optional
+
+
+
+[[dependencies.examplemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
