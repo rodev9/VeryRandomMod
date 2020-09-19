@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[31,)"
-issueTrackerURL="https://github.com/romilodev/VeryRandomThings/issues" #optional
+issueTrackerURL="https://github.com/romilodev/VeryRandomMod/issues" #optional
 
 [[mods]]
 modId="veryrandom"
@@ -12,7 +12,7 @@ description='''
 This is a Very Random Mod!
 '''
 
-displayURL="https://github.com/romilodev/VeryRandomThings#readme" #optional
+displayURL="https://github.com/romilodev/VeryRandomMod#readme" #optional
 # updateJSONURL="" #optional
 # credits="" #optional
 
