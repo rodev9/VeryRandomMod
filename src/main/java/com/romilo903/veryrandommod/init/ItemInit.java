@@ -13,9 +13,11 @@ import net.minecraftforge.registries.ObjectHolder;
 @ObjectHolder(VeryRandomMod.MOD_ID)
 public class ItemInit {
     public static final Item romilo = null;
+    public static final Item plastic_fragment = null;
 
     @SubscribeEvent
     public static void registerItems(final RegistryEvent.Register<Item> event) {
         event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.MISC)).setRegistryName("romilo"));
+        event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName("plastic_fragment"));
     }
 }
