@@ -2,5 +2,7 @@
   "item.veryrandom.romilo": "Romilo903",
   "item.veryrandom.plastic_fragment": "Plastic Fragment",
 
-  "block.veryrandom.plastic_block": "Plastic Block"
+  "block.veryrandom.plastic_block": "Plastic Block",
+
+  "itemGroup.veryrandommod": "Very Random Mod"
 }

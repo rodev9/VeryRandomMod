@@ -6,7 +6,6 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -31,7 +30,7 @@ public class BlockInit {
     @SubscribeEvent
     public static void registerBlockItems(final RegistryEvent.Register<Item> event) {
         event.getRegistry().register(new BlockItem(plastic_block, new Item.Properties()
-                .group(ItemGroup.MATERIALS)
+                .group(VeryRandomMod.ItemTab)
         ).setRegistryName("plastic_block"));
     }
 }

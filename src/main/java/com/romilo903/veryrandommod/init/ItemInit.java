@@ -2,7 +2,6 @@ package com.romilo903.veryrandommod.init;
 
 import com.romilo903.veryrandommod.VeryRandomMod;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -17,7 +16,12 @@ public class ItemInit {
 
     @SubscribeEvent
     public static void registerItems(final RegistryEvent.Register<Item> event) {
-        event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.MISC)).setRegistryName("romilo"));
-        event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName("plastic_fragment"));
+        event.getRegistry().register(new Item(new Item.Properties()
+                .group(VeryRandomMod.ItemTab)
+        ).setRegistryName("romilo"));
+
+        event.getRegistry().register(new Item(new Item.Properties()
+                .group(VeryRandomMod.ItemTab)
+        ).setRegistryName("plastic_fragment"));
     }
 }
