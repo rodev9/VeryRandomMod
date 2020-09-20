@@ -6,7 +6,7 @@ issueTrackerURL="https://github.com/romilodev/VeryRandomMod/issues" #optional
 modId="veryrandom"
 displayName="Very Random Mod"
 logoFile="logo.png" #optional
-version="1.15.2-0.0.1"
+version="1.15.2-0.0.2"
 authors="Romilo903" #optional
 description='''
 This is a Very Random Mod!
