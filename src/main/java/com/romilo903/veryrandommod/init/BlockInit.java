@@ -21,7 +21,7 @@ public class BlockInit {
     public static void registerBlocks(final RegistryEvent.Register<Block> event) {
         event.getRegistry().register(new Block(Block.Properties
                 .create(Material.GLASS)
-                .hardnessAndResistance(0.5f, 15.0f)
+                .hardnessAndResistance(0.1f, 0.6f)
                 .sound(SoundType.STEM)
                 .notSolid()
         ).setRegistryName("plastic_block"));
