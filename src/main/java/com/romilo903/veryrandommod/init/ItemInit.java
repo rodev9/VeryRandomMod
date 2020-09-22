@@ -1,6 +1,7 @@
 package com.romilo903.veryrandommod.init;
 
 import com.romilo903.veryrandommod.VeryRandomMod;
+import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -13,6 +14,7 @@ import net.minecraftforge.registries.ObjectHolder;
 public class ItemInit {
     public static final Item romilo = null;
     public static final Item plastic_fragment = null;
+    public static final Item orange = null;
 
     @SubscribeEvent
     public static void registerItems(final RegistryEvent.Register<Item> event) {
@@ -23,5 +25,14 @@ public class ItemInit {
         event.getRegistry().register(new Item(new Item.Properties()
                 .group(VeryRandomMod.ItemTab)
         ).setRegistryName("plastic_fragment"));
+
+        event.getRegistry().register(new Item(new Item.Properties()
+                .group(VeryRandomMod.ItemTab)
+                .food(new Food.Builder()
+                        .hunger(5)
+                        .saturation(3.0f)
+                        .build()
+                )
+        ).setRegistryName("orange"));
     }
 }
