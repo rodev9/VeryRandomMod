@@ -6,8 +6,8 @@ issueTrackerURL="https://github.com/romilodev/VeryRandomMod/issues" #optional
 modId="veryrandom"
 displayName="Very Random Mod"
 logoFile="logo.png" #optional
-version="1.15.2-0.0.2"
-updateJSONURL="https://gist.githubusercontent.com/romilodev/9796892b6e997e92affaedf092b8407c/raw/0e84ab76e51b30ec7fa3a5c64d08208c54eca702/updates.json" #optional
+version="${version}"
+updateJSONURL="https://gist.githubusercontent.com/romilodev/9796892b6e997e92affaedf092b8407c/raw" #optional
 authors="Romilo903" #optional
 description='''
 This is a Very Random Mod!
