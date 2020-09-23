@@ -3,7 +3,8 @@
 
   ![](./src/main/resources/logo.png)
   
-  [![](https://cf.way2muchnoise.eu/full_408935_Downloads.svg) ![](https://cf.way2muchnoise.eu/versions/408935.svg)](https://www.curseforge.com/minecraft/mc-mods/very-random-mod/files)
+  [![](http://cf.way2muchnoise.eu/full_408935_Downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/very-random-mod/files)
+  [![](http://cf.way2muchnoise.eu/versions/408935.svg)](https://www.curseforge.com/minecraft/mc-mods/very-random-mod/files)
 </div>
 
 This is a Very Random Mod!
