@@ -2,5 +2,11 @@
   "item.veryrandom.plastic_fragment": "Fragmento de Plástico",
   "item.veryrandom.orange": "Laranja",
 
+  "item.veryrandom.nether_star_sword": "Espada de Estrela do Nether",
+  "item.veryrandom.nether_star_pickaxe": "Picareta de Estrela do Nether",
+  "item.veryrandom.nether_star_axe": "Machado de Estrela do Nether",
+  "item.veryrandom.nether_star_shovel": "Pá de Estrela do Nether",
+  "item.veryrandom.nether_star_hoe": "Enxada de Estrela do Nether",
+
   "block.veryrandom.plastic_block": "Bloco de Plástico"
 }
