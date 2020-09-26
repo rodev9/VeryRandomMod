@@ -63,7 +63,7 @@ public class ItemInit {
                 .rarity(Rarity.UNCOMMON)
         ).setRegistryName("nether_star_shovel"));
 
-        event.getRegistry().register(new HoeItem(ModItemTier.NETHER_STAR, -3, new Item.Properties()
+        event.getRegistry().register(new HoeItem(ModItemTier.NETHER_STAR, -3, 1.0F, new Item.Properties()
                 .group(VeryRandomMod.ItemTab)
                 .rarity(Rarity.UNCOMMON)
         ).setRegistryName("nether_star_hoe"));
