@@ -3,15 +3,13 @@ package com.romilo903.veryrandommod.init;
 import com.romilo903.veryrandommod.VeryRandomMod;
 import com.romilo903.veryrandommod.tools.ModItemTier;
 import net.minecraft.item.*;
-import net.minecraft.item.crafting.Ingredient;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.registries.ObjectHolder;
 
-import java.util.function.Supplier;
-
+@SuppressWarnings("unused")
 @Mod.EventBusSubscriber(modid = VeryRandomMod.MOD_ID, bus = Bus.MOD)
 @ObjectHolder(VeryRandomMod.MOD_ID)
 public class ItemInit {
@@ -66,7 +64,7 @@ public class ItemInit {
                 .rarity(Rarity.UNCOMMON)
         ).setRegistryName("nether_star_shovel"));
 
-        event.getRegistry().register(new HoeItem(ModItemTier.NETHER_STAR, -3, new Item.Properties()
+        event.getRegistry().register(new HoeItem(ModItemTier.NETHER_STAR, 1, -3, new Item.Properties()
                 .group(VeryRandomMod.ItemTab)
                 .rarity(Rarity.UNCOMMON)
         ).setRegistryName("nether_star_hoe"));

@@ -27,6 +27,7 @@ public class BlockInit {
         ).setRegistryName("plastic_block"));
     }
 
+    @SuppressWarnings("ConstantConditions")
     @SubscribeEvent
     public static void registerBlockItems(final RegistryEvent.Register<Item> event) {
         event.getRegistry().register(new BlockItem(plastic_block, new Item.Properties()
