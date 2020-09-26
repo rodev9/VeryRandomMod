@@ -13,7 +13,7 @@ This is a Very Random Mod!
 
 📦 How to install
 ==============================
-1. Download the [forge installer for Minecraft `1.15.2`](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.15.2.html) <br/><br/>
+1. Download the [forge installer for Minecraft `1.16.3`](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.16.3.html) <br/><br/>
 ![](./.github/download_forge.png)
 <br/><br/>
 ![](./.github/download_forge2.gif)

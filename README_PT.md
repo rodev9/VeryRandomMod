@@ -13,7 +13,7 @@ Este é um Mod Muito Aleatório!
 
 📦 Instalação
 ==============================
-1. Faça o download do [instalador do forge para o Minecraft `1.15.2`](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.15.2.html) <br/><br/>
+1. Faça o download do [instalador do forge para o Minecraft `1.16.3`](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.16.3.html) <br/><br/>
 ![](./.github/download_forge.png)
 <br/><br/>
 ![](./.github/download_forge2.gif)
