@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "veryrandom:plastic_block" }
+  ],
+  "result": {
+    "item": "veryrandom:plastic_fragment",
+    "count": 4
+  }
+}

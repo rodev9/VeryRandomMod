@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "veryrandom:plastic_fragment"
+    }
+  },
+  "result": {
+    "item": "veryrandom:plastic_block",
+    "count": 1
+  }
+}
