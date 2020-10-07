@@ -1,6 +1,7 @@
 package com.romilo903.veryrandommod.init;
 
 import com.romilo903.veryrandommod.VeryRandomMod;
+import com.romilo903.veryrandommod.items.WeatherControl;
 import com.romilo903.veryrandommod.tools.ModItemTier;
 import net.minecraft.item.*;
 import net.minecraftforge.event.RegistryEvent;
@@ -41,6 +42,12 @@ public class ItemInit {
                         .build()
                 )
         ).setRegistryName("orange"));
+
+        event.getRegistry().register(new WeatherControl(new Item.Properties()
+                .group(VeryRandomMod.ItemTab)
+                .maxStackSize(1)
+                .maxDamage(20)
+        ).setRegistryName("rain_control"));
 
         // Tools
         event.getRegistry().register(new SwordItem(ModItemTier.NETHER_STAR, 4, -2.0F, new Item.Properties()
